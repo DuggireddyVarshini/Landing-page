@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page Demo</title>
+  <style>
+    /* Reset CSS */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Header Styles */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    /* Main Content Styles */
+    main {
+      padding: 20px 0;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    p {
+      color: #666;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    /* Form Styles */
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    textarea {
+      resize: vertical;
+      height: 100px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Footer Styles */
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Welcome to Our Landing Page</h1>
+      <p>Unlock Your Potential, Learn Anywhere, Anytime</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section>
+        <h2>About Us</h2>
+        <p>Our landing page serves as the gateway to discovering the unique offerings of our company. As you explore our page, you'll find a comprehensive overview of who we are, what we offer, and how you can engage with us .Dive into our story and mission. Learn about our values, vision, and the passion that drives us forward.</p>
+      </section>
+
+      <section>
+        <h2>Features</h2>
+        <ul>
+          <li>
+            <img src="C:\Users\HP\Downloads\course preview.jpg" alt="Feature Icon">
+            <strong>Course Preview:</strong> Our e-learning platform offers a unique opportunity for potential learners to experience a sneak peek of our courses through our course preview or demo feature. Before making a commitment, users can access a sample lesson, watch an introductory video from the instructor, or explore a selection of course materials. This allows users to get a feel for the content, teaching style, and overall learning experience, helping them make informed decisions about their educational journey.
+          </li>
+          <li>
+            <img src="C:\Users\HP\Downloads\personalized.jpg" alt="Feature Icon">
+            <strong>Recommendations:</strong> t our e-learning platform, we understand that every learner is unique, which is why we offer personalized recommendations to help users discover relevant courses and resources tailored to their individual needs and interests. By analyzing user data such as course history, preferences, and learning objectives, our recommendation engine suggests courses, learning paths, or supplementary materials that align with each user's profile. This personalized approach enhances the user experience, increases engagement, and maximizes the likelihood of successful learning outcomes.
+          </li>
+          <li>
+            <img src= "C:\Users\HP\Downloads\interactive tools.jpg" alt="Feature Icon">
+            <strong>Interactive learning tools:</strong>Our e-learning platform offers a range of interactive learning tools designed to enhance the learning experience and facilitate active engagement with course materials. These tools may include quizzes, interactive exercises, simulations, virtual labs, discussion forums, and collaborative projects. Learners can actively participate in the learning process, apply their knowledge in real-world scenarios, and interact with instructors and peers to deepen their understanding of the subject matter. Whether it's practicing newly acquired skills, troubleshooting problems, or engaging in meaningful discussions, our interactive learning tools empower learners to take control of their learning journey and achieve their educational goals.
+          </li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit.php" method="post">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
